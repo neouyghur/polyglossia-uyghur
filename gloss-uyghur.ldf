@@ -4,24 +4,24 @@
 \RequirePackage{arabicnumbers}
 \RequirePackage{hijrical}
 
-\PolyglossiaSetup{urdu}{
-  bcp47=ur,
+\PolyglossiaSetup{uyghur}{
+  bcp47=ur, % ?
   script=Arabic,
   direction=RL,
   scripttag=arab,
-  langtag=URD,
-  hyphennames={urdu,nohyphenation},
+  langtag=URD, %?
+  hyphennames={urdu,nohyphenation}, %?
   fontsetup=true,
-  localnumeral=urdunumerals
+  localnumeral=urdunumerals %?
   %TODO localalph={abjad,abjad}
 }
 
 % BCP-47 compliant aliases
-\setlanguagealias*{urdu}{ur}
+\setlanguagealias*{uyghur}{ug}
 
 \newif\if@western@numerals
 \def\tmp@western{western}
-\define@key{urdu}{numerals}[eastern]{%
+\define@key{uyghur}{numerals}[eastern]{%
 	\def\@tmpa{#1}%
 	\ifx\@tmpa\tmp@western\@western@numeralstrue%
 	  \else\@western@numeralsfalse%
