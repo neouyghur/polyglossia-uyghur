@@ -1,4 +1,5 @@
 \ProvidesFile{gloss-uyghur.ldf}[polyglossia: module for Uyghur]
+%% Translations provided by Osman Tursun (Github Account: neouyghur)
 
 \PolyglossiaSetup{uyghur}{
   bcp47=ug,
