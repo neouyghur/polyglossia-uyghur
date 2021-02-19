@@ -1,9 +1,5 @@
 \ProvidesFile{gloss-uyghur.ldf}[polyglossia: module for Uyghur]
 
-\RequireBidi
-\RequirePackage{arabicnumbers}
-\RequirePackage{hijrical}
-
 \PolyglossiaSetup{uyghur}{
   bcp47=ug,
   script=Arabic,
