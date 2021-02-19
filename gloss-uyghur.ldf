@@ -9,8 +9,8 @@
   script=Arabic,
   direction=RL,
   scripttag=arab,
-  langtag=URD, %?
-  hyphennames={urdu,nohyphenation}, %?
+  langtag=UG, %?
+  hyphennames={uyghur}, %?
   fontsetup=true,
   localnumeral=urdunumerals %?
   %TODO localalph={abjad,abjad}
@@ -61,7 +61,7 @@
 \DefineFormatHijriDate{urdu}{\@ensure@RTL{%
   \urdunumber{\value{Hijriday}}؍\space\urduhijrimonth{\value{Hijrimonth}}\space\urdunumber{\value{Hijriyear}}}}
 
-\def\captionsurdu{%
+\def\captionsuyghur{%
   \def\refname{\@ensure@RTL{پايدىلانما}}%
   \def\abstractname{\@ensure@RTL{ئابستراكت}}%
   \def\bibname{\@ensure@RTL{پايدىلانما}}%
