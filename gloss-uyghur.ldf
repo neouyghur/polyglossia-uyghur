@@ -62,29 +62,30 @@
   \urdunumber{\value{Hijriday}}؍\space\urduhijrimonth{\value{Hijrimonth}}\space\urdunumber{\value{Hijriyear}}}}
 
 \def\captionsurdu{%
-  \def\refname{\@ensure@RTL{حوالہ جات}}%
-  \def\abstractname{\@ensure@RTL{ملخّص}}%
-  \def\bibname{\@ensure@RTL{کتابیات}}%
-  \def\prefacename{\@ensure@RTL{دیباچہ}}%
+  \def\refname{\@ensure@RTL{پايدىلانما}}%
+  \def\abstractname{\@ensure@RTL{ئابستراكت}}%
+  \def\bibname{\@ensure@RTL{پايدىلانما}}%
+  \def\prefacename{\@ensure@RTL{كىرىش سۆز}}%
   \def\chaptername{\@ensure@RTL{باب}}%
-  \def\appendixname{\@ensure@RTL{ضمیمہ}}%
-  \def\contentsname{\@ensure@RTL{فہرست عنوانات}}%
-  \def\listfigurename{\@ensure@RTL{فہرست اشکال}}%
-  \def\listtablename{\@ensure@RTL{فہرست جداول}}%
-  \def\indexname{\@ensure@RTL{اشاریہ}}%
-  \def\figurename{\@ensure@RTL{شكل}}%
-  \def\tablename{\@ensure@RTL{جدول}}%
+  \def\appendixname{\@ensure@RTL{قوشۇمچە}}%
+  \def\contentsname{\@ensure@RTL{مۇندەرىجە}}%
+  \def\listfigurename{\@ensure@RTL{رەسىملەر}}%
+  \def\listtablename{\@ensure@RTL{جەدۋەللەر}}%
+  \def\indexname{\@ensure@RTL{ئىندېكىس}}%
+  \def\figurename{\@ensure@RTL{رەسىم}}%
+  \def\tablename{\@ensure@RTL{جەدۋەل}}%
   %\def\thepart{}%
-  \def\partname{\@ensure@RTL{حصّہ}}%
-  \def\pagename{\@ensure@RTL{صفحہ}}%
-  \def\seename{\@ensure@RTL{ملاحظہ ہو}}%
-  \def\alsoname{\@ensure@RTL{ایضاً}}%
-  \def\enclname{\@ensure@RTL{منسلک}}%
-  \def\ccname{\@ensure@RTL{نقل}}%
-  \def\headtoname{\@ensure@RTL{بملاحظہ}}%
-  \def\proofname{\@ensure@RTL{ثبوت}}%
-  \def\glossaryname{\@ensure@RTL{لغت}}%
-  \def\sectionname{\@ensure@RTL{فصل}}%
+  \def\partname{\@ensure@RTL{قىسىم}}%
+  \def\pagename{\@ensure@RTL{بەت}}%
+  \def\seename{\@ensure@RTL{قاراڭ}}%
+  \def\alsoname{\@ensure@RTL{ئايرىم قاراڭ}}%
+  \def\enclname{\@ensure@RTL{قوشۇمچە ھۆججەت}}%
+  \def\ccname{\@ensure@RTL{باشقا تاپشۇرۇۋالغۇچى}}%
+  \def\headtoname{\@ensure@RTL{تاپشۇرۇۋالغۇچى}}%
+  \def\proofname{\@ensure@RTL{ئىسپات}}%
+  \def\glossaryname{\@ensure@RTL{لۇغەت}}%
+  %\def\sectionname{\@ensure@RTL{}}%
+  \def\subjectname{\@ensure@RTL{تېما}}%
 }
 
 \def\dateurdu{%
