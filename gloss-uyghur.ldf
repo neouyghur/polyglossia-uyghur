@@ -5,15 +5,13 @@
 \RequirePackage{hijrical}
 
 \PolyglossiaSetup{uyghur}{
-  bcp47=ur, % ?
+  bcp47=ug,
   script=Arabic,
   direction=RL,
   scripttag=arab,
-  langtag=UG, %?
-  hyphennames={uyghur}, %?
+  langtag=UG,
+  hyphennames={uyghur}،
   fontsetup=true,
-  localnumeral=urdunumerals %?
-  %TODO localalph={abjad,abjad}
 }
 
 % BCP-47 compliant aliases
